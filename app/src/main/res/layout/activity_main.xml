@@ -20,7 +20,8 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#Be5025"
+        android:background="@drawable/gradient_color"
+        app:titleTextColor="#fff"
         android:elevation="4dp"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
         app:popupTheme="@style/Theme.MaterialComponents.DayNight"/>
